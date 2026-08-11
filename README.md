@@ -1,95 +1,220 @@
 <h1 align="center">Hi, I'm Abhishek Gorya 👋</h1>
-<h3 align="center">Aspiring Data Scientist | GenAI / ML Engineer | Final-Year MCA Student</h3>
+<h3 align="center">Aspiring Data Scientist · GenAI / ML Engineer · Building AI systems end-to-end</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/abhishekgorya/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:abhishekgorya8@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
-  <a href="https://leetcode.com/u/avi0628/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black" /></a>
-  <img src="https://komarev.com/ghpvc/?username=AbhishekGorya&label=Profile%20Views&color=blue&style=flat" />
+  <a href="https://www.linkedin.com/in/abhishekgorya/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:abhishekgorya8@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://leetcode.com/u/avi0628/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
+  <a href="https://avi-aivideotranscripterassistant.streamlit.app"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=AbhishekGorya&label=Profile%20Views&color=6c5ce7&style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C5CE7&center=true&vCenter=true&width=600&lines=Building+production-grade+GenAI+apps;XGBoost+%2B+SMOTE+%2B+Threshold+Tuning;LangChain+Agents+%7C+RAG+%7C+Multi-Agent+Systems;Turning+Data+into+Decisions" />
 </p>
 
 ---
 
 ### 👨‍💻 About Me
 
-- 🎓 Final-year **MCA** student at University Institute of Technology, RGPV Bhopal (GPA **9.13/10**)
-- 📊 Actively seeking **Data Scientist / Data Analyst / ML-AI Engineer** roles (Bengaluru, Gurugram, Remote)
-- 🧠 Building and deploying **end-to-end GenAI & ML projects** — from data pipeline to production UI
-- 🌱 Currently working through a structured **180-day Data Science roadmap** (Python → Stats → ML → Deployment)
-- 💬 Ask me about: **XGBoost, LangChain, RAG pipelines, SQL, Power BI, Streamlit deployment**
-- 📫 Reach me at **abhishekgorya8@gmail.com**
+```yaml
+name: Abhishek Gorya
+role: Final-Year MCA Student @ UIT, RGPV Bhopal
+gpa: 9.13 / 10
+focus: Data Science · GenAI Engineering · ML Systems
+looking_for: Data Scientist / Data Analyst / ML-AI Engineer roles
+locations: [Bengaluru, Gurugram, Remote]
+current_grind: 180-day Data Science roadmap (Python → Stats → ML → Deployment)
+philosophy: "Ship it, deploy it, break it, fix it — then explain why it broke."
+```
+
+- 🎓 **MCA** (Final Year) — University Institute of Technology, RGPV Bhopal · **BCA** — Barkatullah University (CGPA 8.15)
+- 🧪 Completed a **Python/Data Analysis traineeship** + 7 industry-simulated **Forage programs** (BCG, Deloitte, Quantium, Tata)
+- 🤖 Design and ship **full GenAI pipelines** — not just prompting, but agents, RAG, tool-calling, and evaluation
+- 📈 Every ML project follows the same discipline: **baseline → diagnose the failure → fix it → prove it with metrics**
+- 🌱 Currently deep in **agentic AI systems, LangGraph patterns, and statistical foundations**
+- 📫 **abhishekgorya8@gmail.com**
 
 ---
 
 ### 🚀 Featured Projects
 
-**[AI Video Transcripter Assistant](https://github.com/AbhishekGorya/AIVideoTranscripterAssistant)**
-Caption-first YouTube → structured report pipeline. YouTube Transcript API + Whisper/yt-dlp fallback, Sarvam AI for Hinglish audio, LangChain + Mistral map-reduce summarization, ChromaDB RAG chatbot over the transcript.
-🔗 [Live App](https://avi-aivideotranscripterassistant.streamlit.app)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**[GenAI Multi-Agent Research System](https://github.com/AbhishekGorya/GenAI-MultiAgentResearchSystem)**
-4-stage autonomous agent pipeline — Search → Reader → Writer → Critic — using LangChain, Mistral Small, Tavily Search API, and BeautifulSoup, with a live Streamlit dashboard and downloadable Markdown reports.
-🔗 [Live App](https://avi-genai-multiagentresearchsystem.streamlit.app)
+#### 🎥 [AI Video Transcripter Assistant](https://github.com/AbhishekGorya/AIVideoTranscripterAssistant)
+Caption-first YouTube → structured report pipeline.
 
-**[Customer Credit Delinquency Prediction](https://github.com/AbhishekGorya/Complete-ML-Models-ClassificationsBased)**
-XGBoost model with SMOTE + threshold tuning — fixed a classic trap where 84% accuracy masked zero recall on the minority class. Includes a full Streamlit GUI.
+- **Ingestion:** `youtube-transcript-api` (primary) → Whisper + `yt-dlp` (audio fallback) → Sarvam AI (Hinglish)
+- **Reasoning:** LangChain map-reduce summarization on Mistral, structured extraction of action items & decisions
+- **Retrieval:** ChromaDB-backed RAG chatbot to query the transcript conversationally
+- **Interfaces:** Streamlit UI + standalone CLI
 
-**[E-Commerce Data Analytics Pipeline](https://github.com/AbhishekGorya/DataAnalytics-Projects)**
-Python + MySQL pipeline over 50,000+ records, with 15+ analytical SQL queries driving business insights.
+🔗 [Live App](https://avi-aivideotranscripterassistant.streamlit.app) &nbsp;·&nbsp; `LangChain` `Whisper` `ChromaDB` `Streamlit`
 
-**[Urban Ride Analytics Dashboard](https://github.com/AbhishekGorya/DataAnalytics-Projects)**
-Power BI + DAX dashboard analyzing 100,000+ ride records for demand and revenue patterns.
+</td>
+<td width="50%" valign="top">
+
+#### 🔎 [GenAI Multi-Agent Research System](https://github.com/AbhishekGorya/GenAI-MultiAgentResearchSystem)
+Autonomous 4-agent pipeline that researches a topic end-to-end.
+
+- **Search Agent** → Tavily Search API pulls relevant sources
+- **Reader Agent** → BeautifulSoup extracts & cleans web content
+- **Writer Agent** → Mistral Small synthesizes a structured report
+- **Critic Agent** → reviews and refines the output before delivery
+- Live per-step status in the UI + downloadable Markdown report
+
+🔗 [Live App](https://avi-genai-multiagentresearchsystem.streamlit.app) &nbsp;·&nbsp; `LangChain` `Multi-Agent` `Tavily API`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 💳 [Customer Credit Delinquency Prediction](https://github.com/AbhishekGorya/Complete-ML-Models-ClassificationsBased)
+The classic imbalanced-classification trap, solved properly.
+
+- Baseline model hit 84% accuracy — but **zero recall** on the minority (defaulter) class
+- Diagnosed the imbalance, applied **SMOTE** resampling + **threshold tuning**
+- Rebuilt as a 4-step structured pipeline with a Streamlit GUI for live predictions
+
+`XGBoost` `SMOTE` `Scikit-learn` `Streamlit`
+
+</td>
+<td width="50%" valign="top">
+
+#### 🩺 [GenAI Disease Risk Prediction](https://github.com/AbhishekGorya/GenAiPoweredEarlyDiseasePredictionModel)
+Risk-scoring app with model explainability built in.
+
+- XGBoost classifier for early disease risk scoring
+- **SHAP** values expose *why* the model made each prediction, not just the score
+- Deployed as an interactive Streamlit app
+
+`XGBoost` `SHAP` `Streamlit`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🛒 [E-Commerce Data Analytics Pipeline](https://github.com/AbhishekGorya/DataAnalytics-Projects)
+Python + MySQL pipeline over **50,000+ records**.
+
+- 15+ analytical SQL queries surfacing revenue, retention & product-level insights
+- Clean ETL flow from raw transactional data to query-ready tables
+
+`Python` `MySQL` `Pandas`
+
+</td>
+<td width="50%" valign="top">
+
+#### 🚕 [Urban Ride Analytics Dashboard](https://github.com/AbhishekGorya/DataAnalytics-Projects)
+Power BI dashboard over **100,000+ ride records**.
+
+- DAX measures for demand patterns, peak-hour analysis, and revenue trends
+- Interactive drill-downs for city/route-level performance
+
+`Power BI` `DAX`
+
+</td>
+</tr>
+</table>
+
+<p align="center"><i>More projects → <a href="https://github.com/AbhishekGorya?tab=repositories">explore all repositories</a></i></p>
 
 ---
 
 ### 🛠️ Tech Stack
 
-**Languages & Core**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+<details open>
+<summary><b>🧠 GenAI / LLM Engineering</b></summary>
+<br>
 
-**Data Science & ML**
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-1560bd?style=flat)
+| Category | Tools |
+|---|---|
+| **Orchestration** | LangChain · LangGraph (learning) · Chains · Runnables |
+| **Agentic Systems** | Multi-Agent pipelines · Tool-calling · ReAct-style agents |
+| **Retrieval (RAG)** | ChromaDB · Vector embeddings · Semantic search |
+| **LLM Providers** | Mistral (Small/API) · Sarvam AI (Hinglish) |
+| **Search / Tools** | Tavily Search API · BeautifulSoup (web extraction) |
+| **Audio → Text** | Whisper · yt-dlp · YouTube Transcript API |
+| **Evaluation mindset** | Structured output extraction · Map-reduce summarization · Critic/review loops |
 
-**GenAI / LLM**
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-3776AB?style=flat)
+</details>
 
-**Visualization & BI**
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat)
+<details open>
+<summary><b>📊 Data Science & Machine Learning</b></summary>
+<br>
 
-**Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+| Category | Tools |
+|---|---|
+| **Modeling** | Scikit-learn · XGBoost · Logistic Regression · SVM · KNN |
+| **Imbalance Handling** | SMOTE · Threshold tuning · Class-weighting |
+| **Explainability** | SHAP |
+| **NLP (classical)** | TF-IDF · Sentiment classification |
+| **Data Wrangling** | Pandas · NumPy |
+| **Visualization** | Matplotlib · Power BI · DAX |
+
+</details>
+
+<details open>
+<summary><b>💻 Core & Tools</b></summary>
+<br>
+
+| Category | Tools |
+|---|---|
+| **Languages** | Python · SQL (MySQL) |
+| **App Deployment** | Streamlit Community Cloud |
+| **Dev Tools** | Git · GitHub · Jupyter Notebook · VS Code |
+| **Currently building toward** | TensorFlow · PyTorch · Hugging Face (deep learning fundamentals) |
+
+</details>
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AbhishekGorya&show_icons=true&theme=default&count_private=true" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbhishekGorya&theme=default" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AbhishekGorya&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbhishekGorya&theme=tokyonight&hide_border=true" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhishekGorya&layout=compact&theme=default" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhishekGorya&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbhishekGorya&theme=tokyo-night&hide_border=true" width="95%" />
 </p>
 
 ---
 
-### 📈 LeetCode
+### 📈 LeetCode Progress
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/avi0628?theme=light&font=baloo2&ext=heatmap" />
+  <img src="https://leetcard.jacoblin.cool/avi0628?theme=dark&font=baloo2&ext=heatmap" />
 </p>
 
-112+ problems solved · **Top SQL 50** badge
+<p align="center">112+ problems solved &nbsp;·&nbsp; 🏆 <b>Top SQL 50</b> badge &nbsp;·&nbsp; Focus: Window Functions · CTEs · Query Optimization</p>
 
 ---
 
-<p align="center"><i>Currently building toward: deep learning frameworks (TensorFlow, PyTorch) and advanced MLOps practices.</i></p>
+### 🗺️ Currently On My Roadmap
+
+- [x] Deploy 2 production GenAI apps end-to-end (ingestion → reasoning → retrieval → UI)
+- [x] Build a multi-agent research pipeline with review/critique loop
+- [ ] Complete Phase 1 of 180-day DS roadmap (Python · Maths · Stats)
+- [ ] Go deeper on LangGraph for stateful agent workflows
+- [ ] Hands-on deep learning with PyTorch / TensorFlow
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+</p>
+
+<p align="center"><i>💬 Open to Data Scientist, Data Analyst, and GenAI Engineer roles — let's talk!</i></p>
