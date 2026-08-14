@@ -22,7 +22,7 @@
 
 ```yaml
 name: Abhishek Gorya
-role: Final-Year MCA Student @ UIT, RGPV Bhopal
+role: MCA'2026 Student @ UIT, RGPV Bhopal
 gpa: 9.13 / 10
 focus: Data Science · GenAI Engineering · ML Systems
 looking_for: Data Scientist / Data Analyst / ML-AI Engineer roles
