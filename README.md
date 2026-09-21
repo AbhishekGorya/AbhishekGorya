@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Abhishek Gorya 👋</h1>
-<h3 align="center">Aspiring Data Scientist · GenAI / ML Engineer · Building AI systems end-to-end</h3>
+<h3 align="center">Data Scientist in the making · GenAI / ML Engineer · Building AI systems end-to-end</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abhishekgorya/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -13,7 +13,11 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C5CE7&center=true&vCenter=true&width=600&lines=Building+production-grade+GenAI+apps;XGBoost+%2B+SMOTE+%2B+Threshold+Tuning;LangChain+Agents+%7C+RAG+%7C+Multi-Agent+Systems;Turning+Data+into+Decisions" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C5CE7&center=true&vCenter=true&width=700&lines=MCA+Graduate+%7C+CGPA+9.13%2F10;Building+production-grade+GenAI+apps;LangChain+Agents+%7C+RAG+%7C+Multi-Agent+Systems;XGBoost+%2B+SMOTE+%2B+Threshold+Tuning;Turning+Data+into+Decisions" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 </p>
 
 ---
@@ -22,8 +26,8 @@
 
 ```yaml
 name: Abhishek Gorya
-role: MCA'2026 Student @ UIT, RGPV Bhopal
-gpa: 9.13 / 10
+role: MCA Graduate (2026) @ UIT, RGPV Bhopal
+final_cgpa: 9.13 / 10  🎓
 focus: Data Science · GenAI Engineering · ML Systems
 looking_for: Data Scientist / Data Analyst / ML-AI Engineer roles
 locations: [Bengaluru, Gurugram, Remote]
@@ -31,12 +35,35 @@ current_grind: 180-day Data Science roadmap (Python → Stats → ML → Deploym
 philosophy: "Ship it, deploy it, break it, fix it — then explain why it broke."
 ```
 
-- 🎓 **MCA** (Final Year) — University Institute of Technology, RGPV Bhopal · **BCA** — Barkatullah University (CGPA 8.15)
+- 🎓 **MCA — 9.13/10 CGPA** · University Institute of Technology, RGPV Bhopal · **BCA** — Barkatullah University (CGPA 8.15)
 - 🧪 Completed a **Python/Data Analysis traineeship** + 7 industry-simulated **Forage programs** (BCG, Deloitte, Quantium, Tata)
 - 🤖 Design and ship **full GenAI pipelines** — not just prompting, but agents, RAG, tool-calling, and evaluation
 - 📈 Every ML project follows the same discipline: **baseline → diagnose the failure → fix it → prove it with metrics**
 - 🌱 Currently deep in **agentic AI systems, LangGraph patterns, and statistical foundations**
 - 📫 **abhishekgorya8@gmail.com**
+
+---
+
+### 🧗 My Journey
+
+```mermaid
+timeline
+    title From BCA to Building GenAI Systems
+    BCA · Barkatullah University : CGPA 8.15
+    MCA begins · RGPV Bhopal : Data Science focus
+    Forage Programs : BCG · Deloitte · Quantium · Tata
+    First ML Projects : XGBoost · SMOTE · SHAP
+    GenAI Era : LangChain · RAG · ChromaDB
+    Multi-Agent Systems : LangGraph · Tool-calling agents
+    MCA Completed : CGPA 9.13/10 🎓
+    Now : 180-day DS roadmap + job hunt
+```
+
+It started with SQL queries and Pandas dataframes — clean, satisfying, deterministic. Then came the messier, more interesting problem: models that were "accurate" on paper but useless in practice (hello, 84% accuracy with **zero recall**). Fixing that taught me more about being a data scientist than any tutorial did.
+
+Somewhere along the way, GenAI pulled me in — not as a novelty, but as an engineering problem. Prompting alone wasn't enough; I wanted systems that could **retrieve, reason, critique, and act**. That's what led to building multi-agent research pipelines and RAG-backed assistants instead of just chatting with an LLM.
+
+Today, I graduate with a **9.13/10 CGPA**, a portfolio of shipped, deployed apps, and a clear next chapter: go deeper into statistics, deep learning, and agentic architectures — while looking for a team to build all of this with in production.
 
 ---
 
@@ -75,6 +102,19 @@ Autonomous 4-agent pipeline that researches a topic end-to-end.
 <tr>
 <td width="50%" valign="top">
 
+#### 🧩 [AgenticAI — Learning & Implementation](https://github.com/AbhishekGorya/AgenticAI-LearningAndImplementation)
+Hands-on lab for core agentic workflow patterns using LangGraph.
+
+- **Sequential, Conditional & Parallel** graph workflows
+- **Iterative** loop-based agents with retry/refine logic
+- **Human-in-the-loop** checkpointing for approval-gated execution
+- A Smart College Chatbot built to apply conditional routing in practice
+
+`LangGraph` `LangChain` `FAISS` `Groq`
+
+</td>
+<td width="50%" valign="top">
+
 #### 💳 [Customer Credit Delinquency Prediction](https://github.com/AbhishekGorya/Complete-ML-Models-ClassificationsBased)
 The classic imbalanced-classification trap, solved properly.
 
@@ -85,6 +125,8 @@ The classic imbalanced-classification trap, solved properly.
 `XGBoost` `SMOTE` `Scikit-learn` `Streamlit`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### 🩺 [GenAI Disease Risk Prediction](https://github.com/AbhishekGorya/GenAiPoweredEarlyDiseasePredictionModel)
@@ -97,8 +139,6 @@ Risk-scoring app with model explainability built in.
 `XGBoost` `SHAP` `Streamlit`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### 🛒 [E-Commerce Data Analytics Pipeline](https://github.com/AbhishekGorya/DataAnalytics-Projects)
@@ -110,6 +150,8 @@ Python + MySQL pipeline over **50,000+ records**.
 `Python` `MySQL` `Pandas`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### 🚕 [Urban Ride Analytics Dashboard](https://github.com/AbhishekGorya/DataAnalytics-Projects)
@@ -119,6 +161,16 @@ Power BI dashboard over **100,000+ ride records**.
 - Interactive drill-downs for city/route-level performance
 
 `Power BI` `DAX`
+
+</td>
+<td width="50%" valign="top">
+
+#### 📁 More on the way
+This grid keeps growing as I ship new agentic and ML systems.
+
+- Next up: RAG agent over FAISS + HuggingFace embeddings
+- Next up: Multi-agent handoff systems
+- Next up: A deployed deep-learning project (PyTorch/TensorFlow)
 
 </td>
 </tr>
@@ -136,10 +188,10 @@ Power BI dashboard over **100,000+ ride records**.
 
 | Category | Tools |
 |---|---|
-| **Orchestration** | LangChain · LangGraph (learning) · Chains · Runnables |
-| **Agentic Systems** | Multi-Agent pipelines · Tool-calling · ReAct-style agents |
-| **Retrieval (RAG)** | ChromaDB · Vector embeddings · Semantic search |
-| **LLM Providers** | Mistral (Small/API) · Sarvam AI (Hinglish) |
+| **Orchestration** | LangChain · LangGraph · Chains · Runnables |
+| **Agentic Systems** | Multi-Agent pipelines · Sequential/Conditional/Parallel/Iterative workflows · Human-in-the-loop · Tool-calling · ReAct-style agents |
+| **Retrieval (RAG)** | ChromaDB · FAISS · Vector embeddings · Semantic search |
+| **LLM Providers** | Groq · Mistral (Small/API) · Sarvam AI (Hinglish) |
 | **Search / Tools** | Tavily Search API · BeautifulSoup (web extraction) |
 | **Audio → Text** | Whisper · yt-dlp · YouTube Transcript API |
 | **Evaluation mindset** | Structured output extraction · Map-reduce summarization · Critic/review loops |
@@ -176,7 +228,7 @@ Power BI dashboard over **100,000+ ride records**.
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub Stats & Streaks
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AbhishekGorya&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="165" />
@@ -193,7 +245,7 @@ Power BI dashboard over **100,000+ ride records**.
 
 ---
 
-### 📈 LeetCode Progress
+### 📈 LeetCode Progress & Streak
 
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/avi0628?theme=dark&font=baloo2&ext=heatmap" />
@@ -203,13 +255,18 @@ Power BI dashboard over **100,000+ ride records**.
 
 ---
 
-### 🗺️ Currently On My Roadmap
+### 🎯 Future Targets
 
-- [x] Deploy 2 production GenAI apps end-to-end (ingestion → reasoning → retrieval → UI)
-- [x] Build a multi-agent research pipeline with review/critique loop
-- [ ] Complete Phase 1 of 180-day DS roadmap (Python · Maths · Stats)
-- [ ] Go deeper on LangGraph for stateful agent workflows
-- [ ] Hands-on deep learning with PyTorch / TensorFlow
+- [ ] Land a **Data Scientist / Data Analyst / ML-AI Engineer** role in Bengaluru, Gurugram, or Remote
+- [ ] Finish the **180-day Data Science roadmap** — Python → Stats → ML → Deployment
+- [ ] Go deeper into **LangGraph** for stateful, multi-agent orchestration at production scale
+- [ ] Ship a **RAG agent** over FAISS + HuggingFace embeddings end-to-end
+- [ ] Get hands-on with **deep learning** — PyTorch / TensorFlow — beyond classical ML
+- [ ] Build a **multi-agent handoff system** where agents delegate sub-tasks to each other
+
+### 🌠 The Bigger Dream
+
+To become the kind of engineer who doesn't just fine-tune models but **architects reliable, production-grade AI systems** — the person a team trusts to take an idea from "can an LLM do this?" to a deployed, monitored, and explainable system in the real world. Long-term, that means building (or joining early on) products at the intersection of **agentic AI and decision intelligence** — systems that don't just answer questions, but *act* on them responsibly.
 
 ---
 
