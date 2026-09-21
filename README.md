@@ -1,5 +1,13 @@
-<h1 align="center">Hi, I'm Abhishek Gorya 👋</h1>
-<h3 align="center">Data Scientist in the making · GenAI / ML Engineer · Professional bug-whisperer</h3>
+<img align="right" width="170" src="https://api.dicebear.com/9.x/pixel-art/svg?seed=AbhishekGorya" alt="pixel avatar" />
+
+# Hi, I'm Abhishek Gorya 👋
+**Data Scientist in the making · GenAI / ML Engineer · Professional bug-whisperer**
+
+🎓 **9.13/10 CGPA** — MCA @ RGPV Bhopal
+🧠 GenAI & Agentic AI Engineer in training
+📍 Bengaluru · Gurugram · Remote
+📫 abhishekgorya8@gmail.com
+<br clear="right"/>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abhishekgorya/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -240,26 +248,22 @@ DAX measures for demand patterns, peak-hour trends, and revenue — with drill-d
 <img src="https://img.shields.io/badge/☕-Survived_on_chai_alone-yellow?style=flat-square" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AbhishekGorya&theme=tokyonight&no-frame=true&column=4&margin-w=8&margin-h=8" />
-</p>
-
 ---
 
 ### 📊 GitHub Stats & Streaks
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AbhishekGorya&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="165" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbhishekGorya&theme=tokyonight&hide_border=true" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhishekGorya&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square" />
+<img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbhishekGorya&theme=tokyo-night&hide_border=true" width="95%" />
-</p>
+<p align="center"><i>Prefer stats that actually move? Scroll all the way down and feed the snake. 🐍</i></p>
 
 ---
 
@@ -295,3 +299,19 @@ To be the engineer a team trusts with the scary sentence *"can an LLM do this?"*
 <p align="center"><i>💬 Open to Data Scientist, Data Analyst, and GenAI Engineer roles — let's talk (or at least argue about bias-variance tradeoff)!</i></p>
 
 <p align="center"><sub>🥚 Psst — if you've read this far, you've officially unlocked "Actually Read The Whole README" status. Rare achievement.</sub></p>
+
+---
+
+### 🐍 One Last Thing — Feed My Contribution Snake
+
+*A snake that literally eats my GitHub contribution graph. Unnecessary? Yes. Fun? Also yes.*
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhishekGorya/AbhishekGorya/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbhishekGorya/AbhishekGorya/output/github-contribution-grid-snake.svg" />
+  <img alt="a snake eating my contribution graph" src="https://raw.githubusercontent.com/AbhishekGorya/AbhishekGorya/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+</p>
+
+<p align="center"><sub>⚙️ Powered by a GitHub Action that re-generates this once a day — setup file included below.</sub></p>
