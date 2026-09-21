@@ -269,7 +269,7 @@ DAX measures for demand patterns, peak-hour trends, and revenue — with drill-d
   <img src="https://leetcard.jacoblin.cool/avi0628?theme=dark&font=baloo2&ext=heatmap" />
 </p>
 
-<p align="center">112+ problems solved &nbsp;·&nbsp; 🏆 <b>Top SQL 50</b> badge &nbsp;·&nbsp; secretly enjoys window functions more than most hobbies</p>
+<p align="center">135 problems solved (92 Easy · 42 Medium · 1 Hard) &nbsp;·&nbsp; 🏆 <b>Top SQL 50</b> badge &nbsp;·&nbsp; secretly enjoys window functions more than most hobbies</p>
 
 ---
 
