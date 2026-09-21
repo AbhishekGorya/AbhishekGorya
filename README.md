@@ -1,4 +1,4 @@
-
+<img align="right" width="170" src="https://api.dicebear.com/9.x/pixel-art/svg?seed=AbhishekGorya" alt="pixel avatar" />
 
 # Hi, I'm Abhishek Gorya 👋
 **Data Scientist in the making · GenAI / ML Engineer · Professional bug-whisperer**
