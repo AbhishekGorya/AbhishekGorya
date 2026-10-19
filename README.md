@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C5CE7&center=true&vCenter=true&width=750&lines=MCA+Graduate+%7C+CGPA+9.13%2F10+%F0%9F%8E%93;Building+production-grade+GenAI+apps+%F0%9F%A4%96;Making+AI+agents+argue+with+each+other+(productively);XGBoost+%2B+SMOTE+%2B+Threshold+Tuning+%3D+%E2%9D%A4%EF%B8%8F;Fueled+by+chai%2C+not+coffee+%E2%98%95;Turning+Data+into+Decisions" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C5CE7&center=true&vCenter=true&width=750&lines=MCA+Graduate+%7C+CGPA+9.13%2F10+%F0%9F%8E%93;Building+production-grade+GenAI+apps+%F0%9F%A4%96;Making+AI+agents+argue+with+each+other+(productively);Sequential+%7C+Conditional+%7C+Parallel+%7C+Iterative+%7C+Human-in-the-Loop+%F0%9F%95%B8%EF%B8%8F;XGBoost+%2B+SMOTE+%2B+Threshold+Tuning+%3D+%E2%9D%A4%EF%B8%8F;Fueled+by+chai%2C+not+coffee+%E2%98%95;Turning+Data+into+Decisions" />
 </p>
 
 <p align="center">
@@ -74,7 +74,8 @@ timeline
     Forage Programs : BCG · Deloitte · Quantium · Tata : learned real companies have real messy data
     First ML Projects : XGBoost · SMOTE · SHAP : discovered accuracy lies
     GenAI Era : LangChain · RAG · ChromaDB : discovered prompting isn't engineering
-    Multi-Agent Systems : LangGraph · Tool-calling agents : taught AI to delegate work (relatable)
+    Multi-Agent Systems : LangChain · Tool-calling agents : taught AI to delegate work (relatable)
+    Agentic Workflows : LangGraph · Sequential · Conditional · Parallel · Iterative · Human-in-the-loop : taught AI when to stop and ask a human
     MCA Completed : CGPA 9.13/10 🎓 : cue relatives asking about jobs
     Now : 180-day DS roadmap + job hunt : plot twist pending
 ```
@@ -84,6 +85,119 @@ It started with SQL queries and dataframes — clean, satisfying, predictable. T
 Then GenAI happened, and I fell down the agent rabbit hole — not the "chat with a bot" kind, but the "build a Search Agent, a Reader Agent, a Writer Agent, and a Critic Agent that argue until the output is actually good" kind.
 
 Today: **9.13/10 CGPA**, a portfolio of things that are actually deployed (not just "works on my machine"), and a very clear next mission below. 👇
+
+---
+
+### 🕸️ Agentic AI Workflows — where my agents learn to think in graphs
+
+Chatbots answer. **Agents decide what to do next.** In [AgenticAI — Learning & Implementation](https://github.com/AbhishekGorya/AgenticAI-LearningAndImplementation) I rebuilt the five core workflow patterns in **LangGraph**, one by one, until each one stopped feeling like magic and started feeling like plumbing.
+
+<details open>
+<summary><b>🔗 Sequential</b> — one step, then the next, no surprises</summary>
+
+<br>
+
+Each node does one job and hands its state to the next. The foundation every other pattern builds on.
+
+```mermaid
+flowchart LR
+    A([Start]) --> B[Step 1] --> C[Step 2] --> D[Step 3] --> E([End])
+```
+
+📂 [SequentialPipelineProject](https://github.com/AbhishekGorya/AgenticAI-LearningAndImplementation/tree/main/SequentialPipelineProject)
+
+</details>
+
+<details open>
+<summary><b>🔀 Conditional</b> — the graph picks its own path</summary>
+
+<br>
+
+A router node reads the state and sends the query down different branches. I used it to build a **Smart College Chatbot** that handles different kinds of questions differently, instead of one prompt trying to do everything.
+
+```mermaid
+flowchart LR
+    A([Start]) --> R{Router}
+    R -->|Intent A| B[Branch A]
+    R -->|Intent B| C[Branch B]
+    R -->|Intent C| D[Branch C]
+    B --> E([End])
+    C --> E
+    D --> E
+```
+
+📂 [SmartCollegeChatbot-ConditionalWorkflow](https://github.com/AbhishekGorya/AgenticAI-LearningAndImplementation/tree/main/SmartCollegeChatbot-ConditionalWorkflow)
+
+</details>
+
+<details open>
+<summary><b>⚡ Parallel</b> — fan out, work at the same time, fan back in</summary>
+
+<br>
+
+Independent tasks run side by side, then their results get merged into one state. Same work, a fraction of the waiting.
+
+```mermaid
+flowchart LR
+    A([Start]) --> B[Task 1]
+    A --> C[Task 2]
+    A --> D[Task 3]
+    B --> E[Merge results]
+    C --> E
+    D --> E
+    E --> F([End])
+```
+
+📂 [ParallelWorkflow](https://github.com/AbhishekGorya/AgenticAI-LearningAndImplementation/tree/main/ParallelWorkflow)
+
+</details>
+
+<details open>
+<summary><b>🔁 Iterative</b> — try, check, try again until it's actually good</summary>
+
+<br>
+
+A loop with a quality check: if the output isn't good enough, the graph routes back and refines it. This is the same instinct behind my Critic Agent.
+
+```mermaid
+flowchart LR
+    A([Start]) --> B[Generate]
+    B --> C{Good enough?}
+    C -->|No| B
+    C -->|Yes| D([End])
+```
+
+📄 [IterativeWorkflow.py](https://github.com/AbhishekGorya/AgenticAI-LearningAndImplementation/blob/main/IterativeWorkflow.py)
+
+</details>
+
+<details open>
+<summary><b>🧑‍💻 Human-in-the-Loop</b> — the agent pauses and asks before doing anything risky</summary>
+
+<br>
+
+Execution stops at a checkpoint so a human can approve, reject, or edit the state before the graph continues. Autonomy with a safety net.
+
+```mermaid
+flowchart LR
+    A([Start]) --> B[Agent proposes action]
+    B --> C{Human review}
+    C -->|Approve| D[Execute]
+    C -->|Reject / edit| B
+    D --> E([End])
+```
+
+📄 [HumanInTheLoop.py](https://github.com/AbhishekGorya/AgenticAI-LearningAndImplementation/blob/main/HumanInTheLoop.py)
+
+</details>
+
+<p align="center">
+<img src="https://img.shields.io/badge/LangGraph-black?style=for-the-badge" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=lightning&logoColor=white" />
+<img src="https://img.shields.io/badge/FAISS-005571?style=for-the-badge" />
+<img src="https://img.shields.io/badge/HuggingFace%20Embeddings-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+</p>
 
 ---
 
@@ -118,7 +232,7 @@ Caption-first pipeline: `youtube-transcript-api` → Whisper + `yt-dlp` fallback
 
 <br>
 
-Where I go to lift heavier agent graphs: Sequential, Conditional, and Parallel workflows, Iterative loops that retry until they earn it, and Human-in-the-loop checkpoints so a human can veto the AI before it does anything questionable. Includes a Smart College Chatbot built to prove the conditional routing actually works.
+Five LangGraph workflow patterns, each built as working code: Sequential, Conditional, Parallel, Iterative, and Human-in-the-loop. Includes a Smart College Chatbot that proves conditional routing works on a real use case. Diagrams for every pattern are in the [Agentic AI Workflows](#️-agentic-ai-workflows--where-my-agents-learn-to-think-in-graphs) section above.
 
 🔗 [Repo](https://github.com/AbhishekGorya/AgenticAI-LearningAndImplementation)
 🏷️ `LangGraph` `LangChain` `FAISS` `Groq`
@@ -277,7 +391,7 @@ DAX measures for demand patterns, peak-hour trends, and revenue — with drill-d
 
 🎯 Land a **Data Scientist / Data Analyst / ML-AI Engineer** role (Bengaluru · Gurugram · Remote)
 📅 Finish the **180-day Data Science roadmap** — Python → Stats → ML → Deployment
-🕸️ Go deeper into **LangGraph** for production-grade multi-agent orchestration
+🕸️ Take my five LangGraph workflow patterns and combine them into one **production-grade multi-agent system** (persistent memory, tool-calling, real deployment)
 📚 Ship a full **RAG agent** over FAISS + HuggingFace embeddings
 🧬 Get properly hands-on with **deep learning** — PyTorch / TensorFlow, no more avoiding it
 🤝 Build a **multi-agent handoff system** — agents that delegate like a functioning team (unlike some humans)
